@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import ScrollImage from './ScrollImage';
 const Home = () => {
   return (
     <div className=' mt-10 flex flex-col px-4'>
@@ -12,7 +13,7 @@ const Home = () => {
     </button>
   </Link>
 </div>
-
+    <ScrollImage/>
     </div>
   )
 }
